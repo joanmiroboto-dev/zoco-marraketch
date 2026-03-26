@@ -109,7 +109,7 @@ export default function HaggleGame({ item, onClose }: Props) {
             {stage === "greeting" && (
               <motion.div key="greet" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="text-center">
                 <span className="text-5xl block mb-3">{item.emoji}</span>
-                <p className="font-arabic text-2xl text-foreground mb-1">{haggleDialogues.greetings[0].arabic}</p>
+                <p className="font-arabic text-4xl text-foreground mb-1">{haggleDialogues.greetings[0].arabic}</p>
                 <p className="text-muted-foreground text-sm font-display mb-3">{haggleDialogues.greetings[0].spanish}</p>
                 <p className="font-display text-foreground mb-1">
                   <strong>{item.name}</strong> por <span className="text-accent font-bold">🪙 {item.basePrice} DH</span>
@@ -138,7 +138,7 @@ export default function HaggleGame({ item, onClose }: Props) {
                       onClick={() => handleAnswer(opt.arabic)}
                       className="bg-muted hover:bg-primary/10 border-2 border-border hover:border-primary rounded-xl p-3 text-left transition-all active:scale-95"
                     >
-                      <p className="font-arabic text-xl text-foreground">{opt.arabic}</p>
+                      <p className="font-arabic text-3xl text-foreground">{opt.arabic}</p>
                       <p className="text-xs text-muted-foreground font-display">{opt.transliteration}</p>
                     </button>
                   ))}

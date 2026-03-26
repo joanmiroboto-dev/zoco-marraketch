@@ -28,7 +28,7 @@ export default function Onboarding() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
-        className="font-arabic text-3xl text-primary-foreground/90 mb-6"
+        className="font-arabic text-5xl text-primary-foreground/90 mb-6"
       >
         الكلمة
       </motion.p>
