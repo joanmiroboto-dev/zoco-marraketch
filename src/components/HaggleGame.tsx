@@ -138,7 +138,7 @@ export default function HaggleGame({ item, onClose }: Props) {
                       onClick={() => handleAnswer(opt.arabic)}
                       className="bg-muted hover:bg-primary/10 border-2 border-border hover:border-primary rounded-xl p-3 text-left transition-all active:scale-95"
                     >
-                      <p className="font-arabic text-xl text-foreground">{opt.arabic}</p>
+                      <p className="font-arabic text-3xl text-foreground">{opt.arabic}</p>
                       <p className="text-xs text-muted-foreground font-display">{opt.transliteration}</p>
                     </button>
                   ))}

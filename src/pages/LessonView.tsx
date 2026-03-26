@@ -160,7 +160,7 @@ export default function LessonView() {
                   if (quizQ.type === "spanish-to-arabic" || quizQ.type === "arabic-to-spanish") {
                     // Check if option contains Arabic
                     const hasArabic = /[\u0600-\u06FF]/.test(opt);
-                    if (hasArabic) optionClasses += "font-arabic text-2xl ";
+                    if (hasArabic) optionClasses += "font-arabic text-4xl ";
                   }
 
                   if (showFeedback) {

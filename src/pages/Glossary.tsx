@@ -80,7 +80,7 @@ export default function Glossary() {
                 <p className="font-bold text-sm text-foreground font-display">{item.spanish}</p>
                 <p className="text-xs text-muted-foreground font-display">{item.transliteration}</p>
               </div>
-              <p className="font-arabic text-2xl text-primary shrink-0">{item.arabic}</p>
+              <p className="font-arabic text-4xl text-primary shrink-0">{item.arabic}</p>
             </motion.div>
           ))}
         </div>
