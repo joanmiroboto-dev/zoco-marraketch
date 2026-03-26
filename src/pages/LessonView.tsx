@@ -100,7 +100,7 @@ export default function LessonView() {
               className="w-full max-w-sm"
             >
               <div className="bg-card rounded-3xl p-8 shadow-moroccan text-center">
-                <p className="font-arabic text-6xl mb-4 text-foreground leading-relaxed">{card.arabic}</p>
+                <p className="font-arabic text-7xl mb-4 text-foreground leading-relaxed">{card.arabic}</p>
                 <p className="text-xl font-bold text-primary font-display mb-1">{card.transliteration}</p>
                 <p className="text-muted-foreground font-display">{card.spanish}</p>
                 {card.note && (
